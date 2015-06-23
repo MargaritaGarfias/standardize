@@ -1,0 +1,9 @@
+Package: standardize
+Type: Package
+Title:  Normalize, weight and aggregate variables of different units. 
+Version: 1.0
+Date: 2015-06-09
+Author: Ricardo Ochoa, Margarita Garfias
+Maintainer: Margarita Garfias <margarita.garfias@gmail.com>
+Description: The function in this package helps to normalize, weight and aggregate variables of different units. The variables are normalized by assigning a "score" from 0 to 100 according to a range of "normal" values for the variable. This ranges can be linear, have a midpoint, be percentiles or inverse percentiles (a.k.a. the less the better). Once the variables have been scored and normalized to the same "units", each variable is weighted according to its importance, which is defined by the user. Finally, all the variables can be aggregated in groups according to any desired variable(s).
+License: MIT License
